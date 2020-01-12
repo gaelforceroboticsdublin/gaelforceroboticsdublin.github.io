@@ -1,0 +1,429 @@
+/* 
+88                                             88  88                          
+88                                             88  ""                          
+88                                             88                              
+88           ,adPPYYba,  8b,dPPYba,    ,adPPYb,88  88  8b,dPPYba,    ,adPPYb,d8
+88           ""     `Y8  88P'   `"8a  a8"    `Y88  88  88P'   `"8a  a8"    `Y88
+88           ,adPPPPP88  88       88  8b       88  88  88       88  8b       88
+88           88,    ,88  88       88  "8a,   ,d88  88  88       88  "8a,   ,d88
+88888888888  `"8bbdP"Y8  88       88   `"8bbdP"Y8  88  88       88   `"YbbdP"Y8
+                                                                     aa,    ,88
+                                                                      "Y8bbdP" 
+*/
+/* LEGACY LANDING */
+.header-landing {
+    background-image: url("../static/images/5327B/5327decal.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: auto;
+}
+
+.title {
+    margin: 0;
+    font-family: "Product Sans";
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    font-size: 5em;
+    /* font-size: 275%; */
+    display: block;
+    z-index: 1;
+    position: center;
+    transform: skew(20deg);
+    margin-left: 13px;
+    padding: .2em;
+}
+
+.titleCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 42vh;
+}
+
+.titleBackground{
+    padding: 10px;
+    display: block;
+    position: relative;
+    transform: skew(-20deg);
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    background-color: #241f20;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+
+
+/* ANSHUL LANDING
+.header-landing {
+    background-image: url("../static/images/5327B/5327decal.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: auto;
+    opacity: 0.4;
+}
+
+.title {
+    margin: 0;
+    font-family: "Product Sans";
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    font-size: 5em;
+    /* font-size: 275%; */  /*
+    display: block;
+    z-index: 1;
+    position: center;
+    transform: skew(20deg);
+    margin-left: 13px;
+    padding: .2em;
+}
+
+.landing-title {
+  margin: 0;
+  font-family: "Darker Grotesque";
+  font-weight: 200;
+  text-transform: uppercase;
+  letter-spacing: 20px;
+  font-size: 9em;
+  /* font-size: 275%; */  /*
+  display: block;
+  z-index: 1;
+  position: center;
+  margin-left: 13px;
+  padding: .2em;
+  margin-top: -0.2em;
+  -webkit-transform: skew(-20deg);
+  -moz-transform: skew(-20deg);
+  -o-transform: skew(-20deg);
+}
+
+.titleCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15vh;
+}
+
+.landing-elements{
+  position: absolute;
+  margin-top: -40em;
+  margin-left: 10em;
+}
+
+.more-info{
+  background-color: #241f20;
+  color: white;
+  text-decoration: none;
+  font-family: "Darker Grotesque";
+  font-size: 2em;
+  padding: 0.7em;
+  padding-top: 0.5em;
+  margin-left: 100%;
+  display:inline-block;
+  border-radius: 10px;
+  width: 5.0em;
+}
+
+.titleBackground{
+    padding: 10px;
+    display: block;
+    position: relative;
+    transform: skew(-20deg);
+    -webkit-transform: skew(-20deg);
+    -moz-transform: skew(-20deg);
+    -o-transform: skew(-20deg);
+    background-color: #241f20;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.landingBackground{
+    padding: 10px;
+    position: relative;
+    transform: skew(-20deg);
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    background-color: #241f20;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    width: 33em;
+    display:inline-block;
+}
+*/
+
+.down-triangle{
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #5680E9;
+  opacity: 0;
+  transform: translateX(-50%);
+  position: absolute;
+  left: 50%;
+}
+
+
+
+/* 
+                                                                              
+  ,ad8888ba,                                                                88
+ d8"'    `"8b                                                               88
+d8'                                                                         88
+88              ,adPPYba,  8b,dPPYba,    ,adPPYba,  8b,dPPYba,  ,adPPYYba,  88
+88      88888  a8P_____88  88P'   `"8a  a8P_____88  88P'   "Y8  ""     `Y8  88
+Y8,        88  8PP"""""""  88       88  8PP"""""""  88          ,adPPPPP88  88
+ Y8a.    .a88  "8b,   ,aa  88       88  "8b,   ,aa  88          88,    ,88  88
+  `"Y88888P"    `"Ybbd8"'  88       88   `"Ybbd8"'  88          `"8bbdP"Y8  88
+ */
+
+    .teamTitle {
+        font-size: 3em;
+        margin-left: 1em;
+        margin-top: 2em;
+        font-family: 'Darker Grotesque', sans-serif;
+    }
+    .teamTitle2 {
+        font-size: 3em;
+        margin-top: 2em;
+        font-family: 'Darker Grotesque', sans-serif;
+        margin-bottom: 1em;
+    }
+
+    .container{
+      width: 100em !important;
+    }
+
+    .margin_awards{
+      margin-left: 5em;
+    }
+
+    .gradientBackgroundText{
+        background: linear-gradient(45deg, #216ae0, #d10300);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .contentContainer{
+        margin: 2em 6em;
+		
+        margin-bottom: 5em;
+    }
+
+    .contentTitle{
+        font-family: 'Product Sans', sans-serif;
+        font-size: 3em;
+        font-weight: normal;
+    }
+
+    .bodyText{
+        font-family: 'Product Sans', sans-serif;
+        font-size: 1.7em;
+        color: white;
+        display: block;
+        margin: 3em;
+        margin-top: 1em;
+		margin-left: 1.5em;
+        line-height: 1.5em;
+        font-weight: 50;
+    }
+
+    .bodyText2{
+        font-family: 'Darker Grotesque', sans-serif;
+        font-size: 1.7em;
+        color: white;
+        display: block;
+        line-height: 1.5em;
+        font-weight: 100;
+    }
+
+    .themeBackground{
+        background-color: #191919;
+    }
+
+    .secondaryBackground{
+        background-color: #241f20
+    }
+
+    .bold{
+        background: linear-gradient(45deg, #216ae0, #d10300);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        display: inline-block;
+        font-weight: bold;
+    }
+
+    .center {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .whiteText{
+        color: white;
+    }
+
+/* 
+                                                           
+88888888ba                88                               
+88      "8b               88                          ,d   
+88      ,8P               88                          88   
+88aaaaaa8P'   ,adPPYba,   88,dPPYba,    ,adPPYba,   MM88MMM
+88""""88'    a8"     "8a  88P'    "8a  a8"     "8a    88   
+88    `8b    8b       d8  88       d8  8b       d8    88   
+88     `8b   "8a,   ,a8"  88b,   ,a8"  "8a,   ,a8"    88,  
+88      `8b   `"YbbdP"'   8Y"Ybbd8"'    `"YbbdP"'     "Y888
+                                                           
+Robot Section */
+
+.robotImg{
+  margin:2.5em;
+  margin-left: 0em;
+  margin-bottom: 26px;
+  margin-right: 4em;
+  width: 40vw;
+  height: auto;
+  display: inline-block;
+  float: left;
+}
+
+/* 
+       db                                                              88           
+      d88b                                                             88           
+     d8'`8b                                                            88           
+    d8'  `8b      8b      db      d8  ,adPPYYba,  8b,dPPYba,   ,adPPYb,88  ,adPPYba,
+   d8YaaaaY8b     `8b    d88b    d8'  ""     `Y8  88P'   "Y8  a8"    `Y88  I8[    ""
+  d8""""""""8b     `8b  d8'`8b  d8'   ,adPPPPP88  88          8b       88   `"Y8ba, 
+ d8'        `8b     `8bd8'  `8bd8'    88,    ,88  88          "8a,   ,d88  aa    ]8I
+d8'          `8b      YP      YP      `"8bbdP"Y8  88           `"8bbdP"Y8  `"YbbdP"'
+Awards Section */
+
+    .excellence{
+        color: gold;
+    }
+
+    .awardsList{
+		font-family: 'Archia', serif;
+		font-size: 140%;
+    	color: #fff;
+    	letter-spacing: 0.005em;
+    	line-height: 1.4em;
+        margin-left: 1.2em;
+    }
+
+/* 
+88b           d88                                  88                                 
+888b         d888                                  88                                 
+88`8b       d8'88                                  88                                 
+88 `8b     d8' 88   ,adPPYba,  88,dPYba,,adPYba,   88,dPPYba,    ,adPPYba,  8b,dPPYba,
+88  `8b   d8'  88  a8P_____88  88P'   "88"    "8a  88P'    "8a  a8P_____88  88P'   "Y8
+88   `8b d8'   88  8PP"""""""  88      88      88  88       d8  8PP"""""""  88        
+88    `888'    88  "8b,   ,aa  88      88      88  88b,   ,a8"  "8b,   ,aa  88        
+88     `8'     88   `"Ybbd8"'  88      88      88  8Y"Ybbd8"'    `"Ybbd8"'  88        
+Member Bios Section */
+    .new_container{
+      margin-bottom: 6em;
+    }
+
+    .imgContainer{
+        margin-bottom: 5vh;
+        margin-top: 2vh;
+        padding: 2em;
+        border-radius: 25px;
+        border-style: solid;
+        border-color: white;
+        float: none;
+    }
+
+    .imgText{
+        font-family: 'Darker Grotesque', sans-serif;
+        font-size: 1.7em;
+        color: white;
+        display: inline;
+    }
+
+    .imgText2{
+        font-family: 'Darker Grotesque', sans-serif;
+        font-size: 1.7em;
+        color: white;
+        display: inline-block;
+        margin-top: 2em;
+    }
+
+    .roundImg{
+        margin-top: 1em;
+        border-radius: 100%;
+        display: inline-block;
+        float: left;
+        margin-right: 5em;
+        margin-left: 3em;
+    }
+
+	.roundedImg{
+		border-radius: 20%;
+		margin-top: 1.5em;
+		width: 100%;
+		height: auto;
+	}
+
+    hr{
+      width: 80%;
+      color: #adadad !important;
+      opacity: 0.1;
+    }
+    .Aboutcontainer{
+      margin-left: 5em;
+      margin-top: 5em;
+      margin-bottom: 15em;
+    }
+
+/*
+88b           d88  88                       
+888b         d888  ""                       
+88`8b       d8'88                           
+88 `8b     d8' 88  88  ,adPPYba,   ,adPPYba,
+88  `8b   d8'  88  88  I8[    ""  a8"     ""
+88   `8b d8'   88  88   `"Y8ba,   8b        
+88    `888'    88  88  aa    ]8I  "8a,   ,aa
+88     `8'     88  88  `"YbbdP"'   `"Ybbd8"'
+*/
+
+
+/* jank way to make sure that Rishi's navbar goes over current page*/
+
+    .top{
+        z-index: 5;
+    }
+    .bottom{
+        z-index:0;
+    }
+
+
+/* anish's code; not 100% working w/ other parts yet */
+
+    .parallelogram-back {
+        animation: 1s ease-out 0s 1 slideInFromLeft;
+        display: block;
+        z-index: 0;
+        position: relative;
+        top: -3em;
+        width: 120%;
+        height: 150px;
+        transform: skew(-20deg);
+        -webkit-transform: skew(-20deg);
+        -moz-transform: skew(-20deg);
+        -o-transform: skew(-20deg);
+        transition: transform 0.9s;
+        background: #241f20;
+        /* https: //codepen.io/sdthornton/pen/wBZdXq */
+        box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+    }
