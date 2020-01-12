@@ -4,17 +4,16 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Gael Force Robotics</title>
-        <link rel="stylesheet" href="../css/main.css">
-        <link rel="stylesheet" href="../css/fonts.css">
-        <link rel="stylesheet" href="../css/teams.css">
+        <link rel="stylesheet" href="./../css/main.css">
+        <link rel="stylesheet" href="./../css/fonts.css">
+		<link rel="stylesheet" href="./../css/teams.css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
         <link rel="stylesheet" href="./../css/bootstrap-grid.min.css">
-        <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque&display=swap" rel="stylesheet">
     </head>
     <body class="site">
-        <nav class="top">
+        <nav>
             <div class="overlay">
                 <button onClick="toggleNav()" class="navbutton">
                     <ul class="navicon">
@@ -26,31 +25,29 @@
                 <div class="linkbox">
                     <div class="linkwrapper">
                         <ul class="links">
-                                <li class="navlink">
-                                    <a href="../index.html" class="link" onclick="toggleNav()">Home</a>
-                                </li>
-                                <li class="navlink">
-                                    <a href="../about.html" class="link" onclick="toggleNav()">About Us</a>
-                                </li>
-                                <li class="navlink">
-                                    <a href="#" class="link" onclick="toggleTeamNav()">Teams</a>
-                                </li>
-                                <li class="navlink">
-                                    <a href="../blog.html" class="link" onclick="toggleNav()">Blog</a>
-                                </li>
-                                <li class="navlink">
-                                    <a href="../products.html" class="link" onclick="toggleNav()">Products</a>
-                                </li>
-                                <li class="navlink">
-                                    <a href="../sponsors.html" class="link" onclick="toggleNav()">Sponsors</a>
-                                </li>
-                                <li class="navlink">
-                                    <a href="../document.html" class="link" onclick="toggleNav()">Documents/Forms</a>
-                                </li>
-                                <li class="navlink">
-                                    <a href="../contact.html" class="link" onclick="toggleNav()">Contact Us</a>
-                                </li>
-                            </ul>
+                            <li class="navlink">
+                                <a href="../index.html" class="link" onclick="toggleNav()">Home</a>
+                            </li>
+                            <li class="navlink">
+                                <a href="../join.html" class="link" onclick="toggleNav()">Join</a>
+                            </li>
+                            <li class="navlink">
+                                <a href="../about.html" class="link" onclick="toggleNav()">About Us</a>
+                            </li>
+                            <li class="navlink">
+                                <a href="#" class="link" onclick="toggleTeamNav()">Teams</a>
+                            </li>
+                            <li class="navlink">
+                                <a href="../blog.html" class="link" onclick="toggleNav()">Blog</a>
+                            </li>
+                            
+                            <li class="navlink">
+                                <a href="../document.html" class="link" onclick="toggleNav()">Documents / Forms</a>
+                            </li>
+                            <li class="navlink">
+                                <a href="../contact.html" class="link" onclick="toggleNav()">Contact Us</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -67,19 +64,18 @@
                 <div class="letterwrapper">
                     <h1 class="teamtitle">Team<span class="nospace">s</span></h1>
                     <div class="teamletters"> <!-- A B E C V Z -->
-                        <a href="./a.html" class="teamletter" onClick="toggleTeamNav()">A</a>
-                        <a href="./b.html" class="teamletter" onClick="toggleTeamNav()">B</a>
-                        <a href="./c.html" class="teamletter" onClick="toggleTeamNav()">C</a>
-                        <a href="./e.html" class="teamletter" onClick="toggleTeamNav()">E</a>
-                        <a href="./v.html" class="teamletter" onClick="toggleTeamNav()">V</a>
-                        <a href="./z.html" class="teamletter" onClick="toggleTeamNav()">Z</a>
-                        <a href="./gfa.html" class="teamletter" onClick="toggleTeamNav()">GFA</a>
+                        <a href="a.html" class="teamletter" onClick="toggleTeamNav()">A</a>
+                        <a href="b.html" class="teamletter" onClick="toggleTeamNav()">B</a>
+                        <a href="c.html" class="teamletter" onClick="toggleTeamNav()">C</a>
+                        <a href="e.html" class="teamletter" onClick="toggleTeamNav()">E</a>
+                        <a href="v.html" class="teamletter" onClick="toggleTeamNav()">V</a>
+                        <a href="z.html" class="teamletter" onClick="toggleTeamNav()">Z</a>
+                        <a href="gfa.html" class="teamletter" onClick="toggleTeamNav()">GFA</a>
                     </div>
                 </div>
             </div>
         </div>
-
-        <div class="themeBackground">
+		<div class="themeBackground">
 
 			<!-- LEGACY LANDING -->
 			<header class="header-landing">
@@ -89,99 +85,24 @@
                     </div>
                 </div>
             </header>
-			
-			<!-- ANSHUL LANDING
-            <div class="header-landing">
-            </div>
-            <div class="landing-elements">
-              <div class = "landingBackground">
-                  <h1 class="landing-title gradientBackgroundText">5327E</h1>
-              </div>
-            </div>
 
-            <div class = "titleCenter" id="link">
-                <div class = "titleBackground">
-                    <h1 class="title gradientBackgroundText">5327B</h1>
-                </div>
-            </div>
-			-->
-            <div class="contentContainer">
-                <h1 class="pagetitle contentTitle">About Us</h1>
-                <p class="bodyText">We are a Gael Force Robotics team. . . Lorem ipsum dolor sit amet, integer amet, vestibulum mi elit sit turpis consectetuer bibendum, orci iaculis. Dolor suscipit nec mi pellentesque auctor curabitur, nec vestibulum in nunc nibh. Metus tortor id euismod aliquet gravida lectus. Nunc erat ut nulla sit molestie. Vitae luctus, aenean at erat mauris et. Pellentesque metus quis ornare sed vehicula. At dui porta pellentesque. Eget est adipiscing sed, augue interdum, quisque viverra diam mi, neque sollicitudin laoreet ante dapibus integer. Integer nulla ut augue pellentesque, dui eu mauris aenean justo auctor lectus, ac wisi sed posuere sociis per, neque donec metus id erat felis, tempus id vitae leo. Integer mattis convallis odio vivamus duis donec, vel eu non, diam maecenas cras morbi molestie quis enim, eget aenean tempus lacus eu ut. Mattis in urna aliquam.</p>
-            </div>
-			
-<hr>
-            <!---<div class="container new_container">-->
-			<div class="contentContainer">
+        <div id = "teamPage" class="sectionheader content">
+			<div class="flexwrapper">
+                <h1 class="pagetitle">About Us</h1>
+                <p class="paragraph">Hello, we are 5327B, one of the Gael Force Robotics teams. We are a team full of members ranging from freshmen to seniors. With our range of skills, we hope we can succeed in this year's game Tower Takeover, including programmers, builders and even more. In order to do so, we plan on organizing our team in a strategic and effective way in order to maximize our success in the coming Tower Takeover season. All though all members maintain a prominent material role, all of the members are truly driven by their passion to push forward, learn, and, of course, win in the coming tournaments. In the end, we hope our team can create a unique culture that can allow us to have fun and succeed.
+                </p>
 
-              <h1 class="pagetitle contentTitle">The Robot</h1>
-              <img src="../static/images/gallery/battle_of_the_bay/1.jpg" class="robotImg col-sm-6">
-              <p class="bodyText">Lorem ipsum dolor sit amet, integer amet, vestibulum mi elit sit turpis consectetuer bibendum, orci iaculis. Dolor suscipit nec mi pellentesque auctor curabitur, nec vestibulum in nunc nibh. Metus tortor id euismod aliquet gravida lectus. Nunc erat ut nulla sit molestie. Vitae luctus, aenean at erat mauris et. Pellentesque metus quis ornare sed vehicula. At dui porta pellentesque. Eget est adipiscing sed, augue interdum, quisque viverra diam mi, neque sollicitudin laoreet ante dapibus integer. Nteger amet, vestibulum mi elit sit turpis consectetuer bibendum, orci iaculis. Dolor suscipit nec mi pellentesque auctor curabitur, nec vestibulum in nunc nibh. Metus tortor id euismod aliquet gravida lectus. Nunc erat ut nulla sit molestie. Vitae luctus, aenean at erat mauris et. Pellentesque metus quis ornare sed vehicula. At dui porta pellentesque. Eget est adipiscing sed, augue inter.  Nunc erat ut nulla sit molestie. Vitae luctus, aenean at erat mauris et. Pellentesque metus quis ornare sed vehicula. At dui porta pellentesque. Eget est adipiscing sed, augue inter.  Nunc erat ut nulla sit molestie. Vitae luctus, aenean at erat mauris et. Pellentesque metus quis ornare sed vehicula. At dui porta pellentesque. Eget est adipiscing sed, augue inter.</p>
+				 
+				<h1 class="pagetitle">Awards</h1>
+				<ul class="awardsList">
+					<li>Judges Award</li>
+				</ul>
 
-            </div>
-<hr>
-            <div class="contentContainer">
+				
 
-                <h1 class="pagetitle teamTitle">Awards</h1>
-                <div class="margin_awards">
-                <h4 class="bodyText2">Turning Point :</h4>
-                <ul class="bodyText2 awardsList">
-                    <li><b class="excellence">Excellence</b> @ Dougherty Valley</li>
-                </ul>
-
-                <h4 class="bodyText2">In the Zone :</h4>
-                <ul class="bodyText2 awardsList">
-                    <li><b class="excellence">Excellence</b> @ Google</li>
-                    <li>Design @ NorCal States</li>
-                    <li><b class="excellence">Excellence</b> @ Vista's</li>
-                    <li>Tourney Champions @ Vista's</li>
-                    <li>Design @ Vista's</li>
-                    <li>Skills Champions @ Vista's</li>
-                </ul>
-
-                <h4 class="bodyText2">Toss Up :</h4>
-                <ul class="awardsList bodyText2">
-                    <li><b class="excellence">Excellence</b> @ Cal High States</li>
-                    <li>Tourney Semi-Finalists @ Cal High States</li>
-                    <li>Tourney Finalists @ Tracy</li>
-                    <li>Design @ Dougherty Valley</li>
-                </ul>
-              </div>
-            </div>
-<hr>
-            <div class = "contentContainer" id="iconContainer">
-                <h1 class="pagetitle teamTitle">
-                    Meet the Team
-                </h1>
-                <div class="Aboutcontainer">
-                  <p class="imgText2 col-sm-7">Aadhav is the captain of team 5327B. Lorem ipsum dolor sit amet, integer amet, vestibulum mi elit sit turpis consectetuer bibendum, orci iaculis. Metus tortor id euismod aliquet gravida lectus. Vitae luctus, aenean at erat mauris et. Pellentesque metus quis ornare sed vehicula. At dui porta pellentesque.Metus tortor id euismod aliquet gravida lectus. Vitae luctus, aenean at erat mauris et. Pellentesque metus quis ornare sed vehicula. At dui porta pellentesque.</p>
-                    <img src="../static/images/5327B/aadhav.jpg" class="roundImg col-sm-3"/>
-                </div>
-            </div>
-        <!---
-
-            Member Bios Original Design
-
-            <h1 class="contentTitle gradientBackgroundText">Meet the Team</h1>
-
-            <div class="imgContainer">
-                <img src="../static/images/5327B/aadhav.jpg" class="roundImg"/>
-                <p class="imgText">Aadhav is the captain of team 5327B. Lorem ipsum dolor sit amet, integer amet, vestibulum mi elit sit turpis consectetuer bibendum, orci iaculis. Metus tortor id euismod aliquet gravida lectus. Vitae luctus, aenean at erat mauris et. Pellentesque metus quis ornare sed vehicula. At dui porta pellentesque. Eget est adipiscing sed, augue interdum, quisque viverra diam mi, neque sollicitudin laoreet ante dapibus integer. </p>
-            </div>
-
-            <div class="imgContainer">
-                <img src="../static/images/5327B/aadhav.jpg" class="roundImg"/>
-                <p class="imgText2">Aadhav is the captain of team 5327B. Lorem ipsum dolor sit amet, integer amet, vestibulum mi elit sit turpis consectetuer bibendum, orci iaculis. Metus tortor id euismod aliquet gravida lectus. Vitae luctus, aenean at erat mauris et. Pellentesque metus quis ornare sed vehicula. At dui porta pellentesque. Eget est adipiscing sed, augue interdum, quisque viverra diam mi, neque sollicitudin laoreet ante dapibus integer. </p>
-            </div>
-
-            <div class="imgContainer2">
-                <img src="../static/images/5327B/aadhav.jpg" class="roundImg"/>
-                <p class="imgText2">Aadhav is the captain of team 5327B. Lorem ipsum dolor sit amet, integer amet, vestibulum mi elit sit turpis consectetuer bibendum, orci iaculis. Metus tortor id euismod aliquet gravida lectus. Vitae luctus, aenean at erat mauris et. Pellentesque metus quis ornare sed vehicula. At dui porta pellentesque. Eget est adipiscing sed, augue interdum, quisque viverra diam mi, neque sollicitudin laoreet ante dapibus integer. </p>
-            </div>
-        -->
-
-        </div>
-
+			</div>
+		</div>
+		</div>
         <footer class="row">
             <div class="col-lg-6 col-xs-12">
                 <h2 class="footertext">Gael Force Robotics</h2>
@@ -210,6 +131,5 @@
         </footer>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="./../js/index.js" charset="utf-8"></script>
-        <script src="../js/5327B.js"></script>
     </body>
 </html>
