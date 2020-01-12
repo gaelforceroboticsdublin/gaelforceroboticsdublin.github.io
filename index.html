@@ -118,7 +118,7 @@
                     If you want to sign up for teaching a Gael Force Academy session, go to the GFA page and fill out the form. Make sure to talk to Jeff (or any Board member) to ensure that the scheduling for your volunteering session is correct.
                 </p>
 
-                <h2 class="bodytitle">Want to earn more about GFR?</h2>
+                <h2 class="bodytitle">Want to learn more about GFR?</h2>
                 <p class="paragraph">
                     GFR is a huge club with a long history. You can check out the About page to learn more about the club and what it does. You can also view our Team pages in order to learn more about the individual teams of our organization. 
                 </p>
@@ -140,16 +140,16 @@
             </div>
             <div class="col-lg-6 col-xs-12">
                 <div class="social">
-                    <a href="#" class="socialicons">
+                    <a href="https://www.facebook.com/GFR5327/" target="_blank" class="socialicons">
                         <i class="fab fa-facebook-f"></i>
                     </a>
-                    <a href="#" class="socialicons">
+                    <a href="https://twitter.com/gaelforcerobots" target="_blank" class="socialicons">
                         <i class="fab fa-twitter"></i>
                     </a>
-                    <a href="#" class="socialicons">
+                    <a href="https://www.youtube.com/user/GaelForceRobotics" target="_blank" class="socialicons">
                         <i class="fab fa-youtube"></i>
                     </a>
-                    <a href="#" class="socialicons">
+                    <a href="https://www.instagram.com/gaelforcerobotics" target="_blank" class="socialicons">
                         <i class="fab fa-instagram"></i>
                     </a>
                 </div>
@@ -158,5 +158,14 @@
         </footer>
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="./js/index.js" charset="utf-8"></script>
+        <script>
+            $(window).scroll(function() {
+                if ($(window).scrollTop() > 100) {
+                    $('.down-arrow').css('opacity', 0);
+                } else {
+                    $('.down-arrow').css('opacity', 1);
+                }
+            });
+        </script>
     </body>
 </html>

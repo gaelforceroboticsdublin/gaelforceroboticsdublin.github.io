@@ -16,8 +16,9 @@ html{
   border-top: 20px solid #fff;
   padding-bottom: 10vh;
   display: block;
+  transition: opacity 0.5s;
+  animation: bounce 2.5s infinite;
 }
-
 
 ::-webkit-scrollbar {
     width: 8px;
